@@ -1,0 +1,22 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+    <style>
+     html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0;}
+  #cwmMap{ height: 100% }
+
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBvl2Lx_Tj-9N_fT9arfnl8utRkVPe50uA&sensor=false"></script>
+ <script>$(function() {
+     var m = new google.maps.Map(document.getElementById('cwmMap'), {
+      center: new google.maps.LatLng(42.04113400940814,-71.795654296875),
+      zoom: 8,
+      mapTypeId: 'roadmap'
+    });
+});</script>
+        <title> </title></head><body>
+
+<div id="cwmMap"></div>
+</body></html>
