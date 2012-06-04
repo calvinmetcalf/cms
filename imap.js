@@ -2,7 +2,7 @@
 
   $.fn.iMap = function(options) {
        var params = $.extend( {
-      'url'         : 'ifr.html',
+      'url'         : 'http://calvinmetcalf.github.com/cms/ifr.html',
       'frameborder':"0",
       'scrolling':"no",
       'marginheight':"0",
