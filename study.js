@@ -5,10 +5,10 @@ $(function() {
 		mapTypeId:'roadmap'
 	});
 	var mainLayer = new google.maps.FusionTablesLayer({
-		map:m,
 		query:{
 			select:'geometry',
 			from:'1lvBDxWXszO6XIa2TZZV5nt3gDnBtyVglFCTB2rU'
 		}
 	});
+    mainLayer.setMap(m);
 });
