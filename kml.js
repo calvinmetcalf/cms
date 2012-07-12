@@ -5,6 +5,6 @@ $(function() {
 		zoom:13,
 		mapTypeId:'roadmap'
 	});
-	mainLayer = new google.maps.KmlLayer('http://calvinmetcalf.github.com/cms/brsa.kml');
+	mainLayer = new google.maps.KmlLayer('http://calvinmetcalf.github.com/cms/BostonRamp.kml');
     mainLayer.setMap(m);
 });
