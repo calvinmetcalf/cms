@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-  <name>brsa</name>
+  <name>bsra</name>
   <description><![CDATA[]]></description>
   <Style id="style2">
     <LabelStyle>
@@ -51,7 +51,7 @@
   <Placemark>
     <name>Regional Study Area</name>
     <Snippet></Snippet>
-   
+    <description><![CDATA[<br>]]></description>
     <styleUrl>#style2</styleUrl>
     <Polygon>
       <outerBoundaryIs>
@@ -406,7 +406,21 @@
   <Placemark>
     <name>Core Study Area</name>
     <Snippet></Snippet>
-    
+    <description><![CDATA[<div style="text-align:left"><br>&nbsp;</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></description>
     <styleUrl>#style3</styleUrl>
     <Polygon>
       <outerBoundaryIs>
